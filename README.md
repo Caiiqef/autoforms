@@ -1,6 +1,6 @@
 # Autoforms
 ### _Automated system for opening tickets via Google Forms integrated with Google Sheets_
-
+<br>
 <a href="https://www.google.com/script/start/">
   <img align="left" alt="Google Script" src="https://img.shields.io/badge/Apps%20Script-fff?style=for-the-badge&logo=Google&logoColor=Black" />
 </a>
