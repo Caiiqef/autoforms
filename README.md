@@ -5,7 +5,7 @@
   <img align="left" alt="Google Script" src="https://img.shields.io/badge/Apps%20Script-fff?style=for-the-badge&logo=Google&logoColor=Black" />
 </a><br>
 
-<p>_Autoforms_ é uma ferramenta para automatizar a abertura de chamados.</p>
+<p> _Autoforms_ é uma ferramenta para automatizar a abertura de chamados.</p>
 ## Recursos
 - Notificação via e-mail
 - Controle geral dos chamados abertos
