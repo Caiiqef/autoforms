@@ -9,6 +9,7 @@ _Autoforms_ é uma ferramenta para automatizar a abertura de chamados.
 
 ## Tecnologias
 - [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript);
+
 _Autoforms_ utiliza ferramentas gratuitas do Google:
 
 - Google Forms
