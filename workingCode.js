@@ -26,7 +26,7 @@ function myFunction() {
     var assunto = 'Chamado: '  + idComputador + ': ' + tipoChamado;
   
     // Email Text. You can add HTML code here - see ctrlq.org/html-mail
-    var htmlBody = 'Prezado operador,';
+    var htmlBody = '𝓟𝓻𝓮𝔃𝓪𝓭𝓸 𝓪𝓭𝓶𝓲𝓷𝓲𝓼𝓽𝓻𝓪𝓭𝓸𝓻,';
     htmlBody += '<p>Essa é uma notificação automática do portal de chamados da Aprisco.</p>';
     htmlBody += '<strong>Nome:</strong> ' + nome;
     htmlBody += '<br><strong>Departamento:</strong> ' + departamento;
@@ -40,7 +40,7 @@ function myFunction() {
     htmlBody += '<p>Obrigado!</p>';
     htmlBody += '<p>Cordialmente,<br>Aprisco Soluções Empresariais.</p>';
     
-    GmailApp.sendEmail('suporte02@aprisco.cnt.br', assunto, '', {htmlBody:htmlBody, name: 'Aprisco - Portal de Chamados', replyTo: email});
+    GmailApp.sendEmail('suporte02@aprisco.cnt.br', assunto, '', {htmlBody:htmlBody, name: 'Admin - Portal de Chamados Aprisco', replyTo: email});
   }
   
   function emailOp(horaChamado, idComputador, tipoChamado, prioridadeChamado, descricaoChamado, nome, departamento, email) {
@@ -64,6 +64,6 @@ function myFunction() {
     htmlBody += '<p>Cordialmente,<br>Equipe de TI - Aprisco Soluções Empresariais.</p>';
     htmlBody += '<p><strong>NÃO responda a este e-mail, pois esta caixa de correio não é utilizada. Em vez disso, use "Responder a todos".</p></strong>';
     
-    GmailApp.sendEmail(email, assunto, '', {htmlBody:htmlBody, name: 'Aprisco - Portal de Chamados', replyTo: 'suporte02@aprisco.cnt.br'});
+    GmailApp.sendEmail(email, assunto, '', {htmlBody: htmlBody, name: 'Portal de Chamados Aprisco', replyTo: 'suporte02@aprisco.cnt.br'});
   }
   
