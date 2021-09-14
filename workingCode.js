@@ -36,7 +36,7 @@ function myFunction() {
     htmlBody += '<br><strong>Data:</strong> ' + horaChamado;
     htmlBody += '<br><strong>Prioridade:</strong> ' + prioridadeChamado;
     htmlBody += '<br><strong>Descrição do problema:</strong> ' + descricaoChamado;  
-    htmlBody += '<p>As informações acima foram extraídas da seguinte fonte: <a href="https://docs.google.com/spreadsheets/d/1CohPgaYiWqpJy85opXpcTTIOidXBMxZBl_07-AuU4C0/edit?usp=sharing/<spreedsheetLinkID>/edit" target="_blank">Service Request Form (Responses)</a>.</p>';
+    
     htmlBody += '<p>Obrigado!</p>';
     htmlBody += '<p>Cordialmente,<br>Aprisco Soluções Empresariais.</p>';
     
